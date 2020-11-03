@@ -120,24 +120,26 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 58,
+    "uniqCompNum": 59,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/wim-logofb-favicon-128x63.png",
     "robotsSwitcher": false,
-    "sitemapSwitcher": false,
+    "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": false,
+    "siteUrl": "https://womeninmeasurement.org",
     "cookiesAlert": false,
     "gdpr": false,
     "publishChangesOnly": false,
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-WGLYCDF4SM\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-WGLYCDF4SM');\n</script>"
   },
   "pages": {
     "about.html": {
       "settings": {
         "title": "About Us",
-        "order": 1
+        "order": 1,
+        "meta_descr": "The mission of Women in Measurement, Inc. is to support the advancement of women in educational measurement. "
       },
       "components": [
         {
@@ -2281,7 +2283,8 @@
     "fellowship.html": {
       "settings": {
         "title": "Research Fellows",
-        "order": 2
+        "order": 2,
+        "meta_descr": "Women in Measurement, Inc. is proud to be able to offer a research fellowship program to support outstanding research that explores the intersection of race, gender, and educational measurement. "
       },
       "components": [
         {
@@ -2927,7 +2930,8 @@
     "programs.html": {
       "settings": {
         "title": "Programming",
-        "order": 3
+        "order": 3,
+        "meta_descr": "Women in Measurement, Inc. hosts a number of initiatives aimed at advancing the careers of women in educational measurement, with particular focus on supporting women of color in our field."
       },
       "components": [
         {
@@ -4062,7 +4066,8 @@
     "partners.html": {
       "settings": {
         "title": "Our Partners",
-        "order": 4
+        "order": 4,
+        "meta_descr": "Our partner organizations support the mission and programming of Women in Measurement, Inc. "
       },
       "components": [
         {
@@ -4685,7 +4690,7 @@
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "",
+        "meta_descr": "A non-profit organization dedicated to the advancement of women--and female minorities in particular--in the field of educational measurement. ",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""

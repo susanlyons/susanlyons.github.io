@@ -6006,8 +6006,29 @@ a {
   width: auto;
   max-width: 100%;
 }
+.cid-sjau1XEewn {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  background-image: url("../../../assets/images/background1.jpg");
+}
+@media (max-width: 991px) {
+  .cid-sjau1XEewn .mbr-section-title,
+  .cid-sjau1XEewn .mbr-section-subtitle,
+  .cid-sjau1XEewn .mbr-section-btn,
+  .cid-sjau1XEewn .mbr-text {
+    text-align: center;
+  }
+}
+.cid-sjau1XEewn .mbr-section-title {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-sjau1XEewn .mbr-section-subtitle {
+  color: #ffffff;
+  text-align: left;
+}
 .cid-sqU1QgRQUN {
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 0rem;
   background: #ffffff;
 }
@@ -6128,24 +6149,51 @@ a {
 .cid-sqU2KuAXZk .social-row .soc-item:hover .mbr-iconfont {
   color: #ffffff;
 }
-.cid-sjau1XEewn {
-  padding-top: 8rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/background7.jpg");
+.cid-sz0wqsxAul {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/background1-1.jpg");
 }
-@media (max-width: 991px) {
-  .cid-sjau1XEewn .mbr-section-title,
-  .cid-sjau1XEewn .mbr-section-subtitle,
-  .cid-sjau1XEewn .mbr-section-btn,
-  .cid-sjau1XEewn .mbr-text {
-    text-align: center;
+.cid-sz0wqsxAul .item-wrapper {
+  width: 100%;
+}
+.cid-sz0wqsxAul .left-side {
+  text-align: left;
+  padding-left: 5rem;
+}
+.cid-sz0wqsxAul .row {
+  align-items: center;
+}
+.cid-sz0wqsxAul .mbr-section-title {
+  margin: 0;
+  color: #0c5b47;
+  padding: 0;
+}
+@media (max-width: 990px) {
+  .cid-sz0wqsxAul .left-side {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+  }
+  .cid-sz0wqsxAul .right-side {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
-.cid-sjau1XEewn .mbr-section-title {
+.cid-sz0wqsxAul .sign {
+  max-width: 250px;
+  display: inline;
+}
+.cid-sz0wqsxAul .mbr-text,
+.cid-sz0wqsxAul .right-side {
+  color: #1b745e;
+}
+.cid-sz0wqsxAul .mbr-section-title,
+.cid-sz0wqsxAul .si {
   color: #ffffff;
   text-align: left;
 }
-.cid-sjau1XEewn .mbr-section-subtitle {
+.cid-sz0wqsxAul .text {
   color: #ffffff;
 }
 .cid-selJrJlxZI {
